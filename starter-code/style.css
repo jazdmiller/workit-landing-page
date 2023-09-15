@@ -1,0 +1,14 @@
+.hero-bg{
+    
+}
+
+.wrap-layer{
+  position: relative;  
+}
+
+.text-layer{
+    position: absolute;
+    /* width: 100%; */
+    /* height: auto; */
+    color: white;
+}
