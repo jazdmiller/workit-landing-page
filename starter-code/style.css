@@ -1,14 +1,36 @@
-.hero-bg{
-    
+@font-face {
+    font-family: 'Fruances 144' ;
+    src: url('./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf');
 }
 
-.wrap-layer{
-  position: relative;  
+@font-face {
+    font-family: 'Manrope';
+    src: url('./assets/fonts/manrope/static/Manrope-Regular.ttf');
 }
+
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+
 
 .text-layer{
     position: absolute;
+    right: 0;
+    left: 0;
     /* width: 100%; */
     /* height: auto; */
     color: white;
+}
+
+.text-center{
+    margin-top: 10%;
+}
+
+.hero-text{
+    font-family: 'Fruances 144', serif;
+
 }
