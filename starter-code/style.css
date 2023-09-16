@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Manrope';
-    src: url('./assets/fonts/manrope/static/Manrope-Regular.ttf');
+    src: url('./assets/fonts/manrope/Manrope-VariableFont_wght.ttf')
 }
 
 
@@ -30,7 +30,27 @@ html, body{
     margin-top: 10%;
 }
 
+.nav-links{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+}
+
+.access-link{
+    border-bottom: 2px solid #44FFA1;
+}
+
 .hero-text{
     font-family: 'Fruances 144', serif;
+    font-size: 4em;
+}
+
+.learn-more-btn{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #24053E;
+    background-color: #44FFA1;
+    border: none;
 
 }
+
