@@ -10,12 +10,29 @@
 
 
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 html, body{
     height: 100%;
     margin: 0;
 }
 
+.wrap-layer{
+    height: 90vh;
+    background-image: url('./assets/images/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
 
+/* .wrap-layer svg{
+    max-width: 100%;
+} */
 
 .text-layer{
     position: absolute;
@@ -26,9 +43,7 @@ html, body{
     color: white;
 }
 
-.text-center{
-    margin-top: 10%;
-}
+
 
 .nav-links{
     font-family: 'Manrope', sans-serif;
@@ -53,4 +68,8 @@ html, body{
     border: none;
 
 }
+
+
+
+
 
