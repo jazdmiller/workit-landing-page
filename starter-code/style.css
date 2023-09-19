@@ -69,6 +69,25 @@ html, body{
 
 }
 
+.hero-bg-1{
+    position: relative;
+    height: 100vh;
+    /* left: -150px; */
+}
+
+.hero-img-1{
+    margin-top: 8%;
+    position: absolute;
+    left: -150px;
+}
+
+.hero-img-2{
+    margin-top: 20%;
+    position: absolute;
+    right: -70px;
+}
+
+
 
 
 
