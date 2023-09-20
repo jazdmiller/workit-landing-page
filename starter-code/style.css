@@ -30,10 +30,10 @@ html, body{
     background-position: bottom;
     background-size: cover;
     position: relative;
+    z-index: 1;
 }
 
 .wrap-layer-2{
-    z-index: -1;
     margin-top: -5%;
     height: 90vh;
     background-image: url('./assets/images/hero-bg-2.svg');
@@ -50,6 +50,7 @@ html, body{
     position: absolute;
     right: 0;
     left: 0;
+    
     /* width: 100%; */
     /* height: auto; */
     color: white;
@@ -100,8 +101,20 @@ html, body{
 
 .hero-phone-img img{
 height: 30vw;
+margin-top: -10vw;
 }
 
+.home-text{
+    color: black;
+    margin-top: 10%;
+
+}
+
+.hero-phone-img{
+ width: 100%;
+ position: absolute;
+ z-index: 2;
+}
 
 
 
