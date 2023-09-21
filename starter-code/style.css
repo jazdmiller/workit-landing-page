@@ -107,7 +107,12 @@ margin-top: -10vw;
 .home-text{
     color: black;
     margin-top: 8%;
+    display: flex;
+    flex-wrap:wrap;
+}
 
+.home-text.row{
+    
 }
 
 .hero-phone-img{
