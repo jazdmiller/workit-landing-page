@@ -108,6 +108,7 @@ margin-top: -10vw;
     margin-top: 8%;
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
 }
 
 .home-text.row{
@@ -196,17 +197,22 @@ margin-top: -10vw;
 
     .founder-img{
         width: 100%;
+        text-align: center;
     }
 
     .founder-img img{
         height: 30vh;
+    }
+
+    .founder-svg{
+        display: none;
     }
 }
 
 @media screen and (min-width: 768px){
 
     .wrap-layer-2{
-        height: 95vh;
+        height: 120vh;
     }
 
     .hero-phone-img img{
@@ -226,6 +232,33 @@ margin-top: -10vw;
         position: absolute;
         right: -100px;
     }
+    .founder-img{
+        margin-top: 20%;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .founder-img img{
+        height: 40vh;
+    }
+    .founder-wrapper{
+        width: 65%;
+        right: 5%;
+        margin-top: -20%;
+    }
+
+    .founder-svg{
+        display: block;
+    }
+
+    .founder-svg img{
+        height: 12.5em;
+    }
+
+    .founder-svg {
+        position: absolute;  
+        right: 5%;
+        bottom: -25%;
+    }
 
 }
 
@@ -235,7 +268,7 @@ margin-top: -10vw;
     }
     .hero-phone-img img{
         height: 50vh;
-        margin-top: -5vw;
+        margin-top: -1vw;
     }
     .hero-img-1{
         margin-top: 8%;
@@ -247,6 +280,14 @@ margin-top: -10vw;
         margin-top: 20%;
         position: absolute;
         right: -70px;
+    }
+
+    .founder-svg{
+        display: none;
+    }
+
+    .founder-img{
+        margin-top: 10%;
     }
 }
 
