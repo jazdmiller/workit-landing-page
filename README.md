@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://workit-landing-page-0110.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/workit-responsive-landing-page-using-html-css-and-bootstrap-VC9PHqhhMt)
+- Live Site URL: [Workit Landing Page](https://workit-landing-page-0110.netlify.app/)
 
 ## My process
 
