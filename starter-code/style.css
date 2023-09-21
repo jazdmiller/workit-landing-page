@@ -142,15 +142,33 @@ margin-top: -10vw;
 
 .copy-text{
     margin-bottom: 15%;
+    font-family: 'Manrope', sans-serif;
+}
+
+.founder{
+    position: relative;
 }
 
 .founder-img{
     margin-top: 30%;
 }
 
-.founder-text{
+.founder-wrapper{
     background-color: #24053E;
     color: white;
+    position: absolute;
+    z-index: 5;
+    margin-top: -10%;;
+}
+
+.founder-title{
+    font-family: 'Fruances 144', serif;
+    font-size: 2em;
+}
+
+.founder-text{
+    font-family: 'Manrope', sans-serif;
+    line-height: 175%;
 }
 
 /* ******** MEDIA QUERIES ********* */
