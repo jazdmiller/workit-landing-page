@@ -207,6 +207,10 @@ margin-top: -10vw;
     .founder-svg{
         display: none;
     }
+
+    .logo-beneath{
+        padding-top:30em;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -260,9 +264,16 @@ margin-top: -10vw;
         bottom: -25%;
     }
 
+    .logo-beneath{
+        padding-top:20em;
+    }
+
 }
 
 @media screen and (min-width: 1440px){
+    .wrap-layer-2 {
+        height: 110vh;
+    }
     .hero-text{
         font-size: 4em;
     }
@@ -282,12 +293,20 @@ margin-top: -10vw;
         right: -70px;
     }
 
-    .founder-svg{
-        display: none;
-    }
+
 
     .founder-img{
         margin-top: 10%;
+        text-align: left;
+        padding-left: 15%;
+    }
+    .founder-img img{
+        height: 40vh;
+    }
+    .founder-wrapper{
+        width: 50%;
+        right: 15%;
+        margin-top: -14%;
     }
 }
 
