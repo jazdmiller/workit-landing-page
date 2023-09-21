@@ -64,6 +64,11 @@ html, body{
 
 .access-link{
     border-bottom: 2px solid #44FFA1;
+    cursor: pointer;
+}
+
+.access-link:hover{
+    color: #44FFA1 !important; 
 }
 
 .hero-text{
@@ -79,6 +84,12 @@ html, body{
     background-color: #44FFA1;
     border: none;
 
+}
+
+.learn-more-btn:hover{
+    background-color: transparent;
+    border: solid 1px #44FFA1;
+    color: #44FFA1;
 }
 
 .hero-bg-1{
