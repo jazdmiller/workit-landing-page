@@ -35,7 +35,6 @@ html, body{
 
 .wrap-layer-2{
     margin-top: -5%;
-    height: 95vh;
     background-image: url('./assets/images/hero-bg-2.svg');
     background-repeat: no-repeat;
     background-position: bottom;
@@ -156,16 +155,25 @@ margin-top: -10vw;
     }
 
     .wrap-layer{
-        height: 80vh;;
+        height: 70vh;
+    }
+
+    .wrap-layer-2{
+        height: 125vh;
     }
 
     .hero-phone-img img{
-        height: 30vh;
-        margin-top: -25vw;
+        height: 25vh;
+        margin-top: -22vw;
     }
 }
 
 @media screen and (min-width: 768px){
+
+    .wrap-layer-2{
+        height: 95vh;
+    }
+    
     .hero-phone-img img{
         height: 40vh;
         margin-top: -10vw;
