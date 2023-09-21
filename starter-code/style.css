@@ -144,6 +144,15 @@ margin-top: -10vw;
     margin-bottom: 15%;
 }
 
+.founder-img{
+    margin-top: 30%;
+}
+
+.founder-text{
+    background-color: #24053E;
+    color: white;
+}
+
 /* ******** MEDIA QUERIES ********* */
 
 @media screen and (min-width: 375px){
@@ -166,6 +175,14 @@ margin-top: -10vw;
         height: 25vh;
         margin-top: -22vw;
     }
+
+    .founder-img{
+        width: 100%;
+    }
+
+    .founder-img img{
+        height: 30vh;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -173,7 +190,7 @@ margin-top: -10vw;
     .wrap-layer-2{
         height: 95vh;
     }
-    
+
     .hero-phone-img img{
         height: 40vh;
         margin-top: -10vw;
